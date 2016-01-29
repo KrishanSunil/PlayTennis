@@ -53,6 +53,7 @@
 		A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTSplashView_iPad.xib; path = PlayTennis/Views/iPad/SplashView/PTSplashView_iPad.xib; sourceTree = SOURCE_ROOT; };
 		A286B3261C5B4904003AD15F /* PTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTUtility.h; path = PlayTennis/Models/CommonUtility/PTUtility.h; sourceTree = SOURCE_ROOT; };
 		A286B3271C5B4904003AD15F /* PTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUtility.m; path = PlayTennis/Models/CommonUtility/PTUtility.m; sourceTree = SOURCE_ROOT; };
+		A286B3291C5B5769003AD15F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		A20D96B21C5B3E67006C59BB = {
 			isa = PBXGroup;
 			children = (
+				A286B3291C5B5769003AD15F /* PrefixHeader.pch */,
 				A20D96BD1C5B3E67006C59BB /* PlayTennis */,
 				A20D96DA1C5B3E68006C59BB /* PlayTennisTests */,
 				A20D96BC1C5B3E67006C59BB /* Products */,
@@ -407,6 +409,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -449,6 +452,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
