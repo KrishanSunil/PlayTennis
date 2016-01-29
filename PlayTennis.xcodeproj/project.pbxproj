@@ -18,6 +18,7 @@
 		A20D96F91C5B424C006C59BB /* PTSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96F81C5B424C006C59BB /* PTSplashViewController.m */; };
 		A20D96FD1C5B42EC006C59BB /* PTSplashView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */; };
 		A20D96FF1C5B445E006C59BB /* PTSplashView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */; };
+		A286B3281C5B4904003AD15F /* PTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A286B3271C5B4904003AD15F /* PTUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		A20D96F81C5B424C006C59BB /* PTSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTSplashViewController.m; path = PlayTennis/ViewControllers/SplashViewController/PTSplashViewController.m; sourceTree = SOURCE_ROOT; };
 		A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTSplashView_iPhone.xib; path = PlayTennis/Views/iPhone/SplashView/PTSplashView_iPhone.xib; sourceTree = SOURCE_ROOT; };
 		A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTSplashView_iPad.xib; path = PlayTennis/Views/iPad/SplashView/PTSplashView_iPad.xib; sourceTree = SOURCE_ROOT; };
+		A286B3261C5B4904003AD15F /* PTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTUtility.h; path = PlayTennis/Models/CommonUtility/PTUtility.h; sourceTree = SOURCE_ROOT; };
+		A286B3271C5B4904003AD15F /* PTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUtility.m; path = PlayTennis/Models/CommonUtility/PTUtility.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 		A20D96E61C5B3F78006C59BB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A286B3251C5B48EB003AD15F /* CommonUtility */,
 			);
 			name = Models;
 			path = ../../../../../../../../users/KrishanS/Documents/Projects/iOS/PlayTennis/PlayTennis/PlayTennis/Models;
@@ -217,6 +221,15 @@
 				A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		A286B3251C5B48EB003AD15F /* CommonUtility */ = {
+			isa = PBXGroup;
+			children = (
+				A286B3261C5B4904003AD15F /* PTUtility.h */,
+				A286B3271C5B4904003AD15F /* PTUtility.m */,
+			);
+			path = CommonUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +338,7 @@
 				A20D96C31C5B3E67006C59BB /* AppDelegate.m in Sources */,
 				A20D96F91C5B424C006C59BB /* PTSplashViewController.m in Sources */,
 				A20D96F21C5B3F78006C59BB /* FirstViewController.m in Sources */,
+				A286B3281C5B4904003AD15F /* PTUtility.m in Sources */,
 				A20D96C01C5B3E67006C59BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
