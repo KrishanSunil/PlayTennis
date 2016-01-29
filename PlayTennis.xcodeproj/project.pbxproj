@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A20D96C01C5B3E67006C59BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96BF1C5B3E67006C59BB /* main.m */; };
 		A20D96C31C5B3E67006C59BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96C21C5B3E67006C59BB /* AppDelegate.m */; };
-		A20D96C61C5B3E67006C59BB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96C51C5B3E67006C59BB /* FirstViewController.m */; };
-		A20D96C91C5B3E67006C59BB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96C81C5B3E67006C59BB /* SecondViewController.m */; };
 		A20D96CC1C5B3E67006C59BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D96CA1C5B3E67006C59BB /* Main.storyboard */; };
 		A20D96CE1C5B3E67006C59BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20D96CD1C5B3E67006C59BB /* Assets.xcassets */; };
 		A20D96D11C5B3E67006C59BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D96CF1C5B3E67006C59BB /* LaunchScreen.storyboard */; };
 		A20D96DC1C5B3E68006C59BB /* PlayTennisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96DB1C5B3E68006C59BB /* PlayTennisTests.m */; };
+		A20D96F21C5B3F78006C59BB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96EB1C5B3F78006C59BB /* FirstViewController.m */; };
+		A20D96F31C5B3F78006C59BB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96EE1C5B3F78006C59BB /* SecondViewController.m */; };
+		A20D96F91C5B424C006C59BB /* PTSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D96F81C5B424C006C59BB /* PTSplashViewController.m */; };
+		A20D96FD1C5B42EC006C59BB /* PTSplashView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */; };
+		A20D96FF1C5B445E006C59BB /* PTSplashView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +35,6 @@
 		A20D96BF1C5B3E67006C59BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A20D96C11C5B3E67006C59BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A20D96C21C5B3E67006C59BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A20D96C41C5B3E67006C59BB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A20D96C51C5B3E67006C59BB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A20D96C71C5B3E67006C59BB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A20D96C81C5B3E67006C59BB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A20D96CB1C5B3E67006C59BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A20D96CD1C5B3E67006C59BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20D96D01C5B3E67006C59BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +42,14 @@
 		A20D96D71C5B3E68006C59BB /* PlayTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D96DB1C5B3E68006C59BB /* PlayTennisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTennisTests.m; sourceTree = "<group>"; };
 		A20D96DD1C5B3E68006C59BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20D96EA1C5B3F78006C59BB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A20D96EB1C5B3F78006C59BB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A20D96ED1C5B3F78006C59BB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A20D96EE1C5B3F78006C59BB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A20D96F71C5B424C006C59BB /* PTSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTSplashViewController.h; path = PlayTennis/ViewControllers/SplashViewController/PTSplashViewController.h; sourceTree = SOURCE_ROOT; };
+		A20D96F81C5B424C006C59BB /* PTSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTSplashViewController.m; path = PlayTennis/ViewControllers/SplashViewController/PTSplashViewController.m; sourceTree = SOURCE_ROOT; };
+		A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTSplashView_iPhone.xib; path = PlayTennis/Views/iPhone/SplashView/PTSplashView_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTSplashView_iPad.xib; path = PlayTennis/Views/iPad/SplashView/PTSplashView_iPad.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +91,12 @@
 		A20D96BD1C5B3E67006C59BB /* PlayTennis */ = {
 			isa = PBXGroup;
 			children = (
+				A20D96E61C5B3F78006C59BB /* Models */,
+				A20D96E71C5B3F78006C59BB /* Resources */,
+				A20D96E81C5B3F78006C59BB /* ViewControllers */,
+				A20D96EF1C5B3F78006C59BB /* Views */,
 				A20D96C11C5B3E67006C59BB /* AppDelegate.h */,
 				A20D96C21C5B3E67006C59BB /* AppDelegate.m */,
-				A20D96C41C5B3E67006C59BB /* FirstViewController.h */,
-				A20D96C51C5B3E67006C59BB /* FirstViewController.m */,
-				A20D96C71C5B3E67006C59BB /* SecondViewController.h */,
-				A20D96C81C5B3E67006C59BB /* SecondViewController.m */,
 				A20D96CA1C5B3E67006C59BB /* Main.storyboard */,
 				A20D96CD1C5B3E67006C59BB /* Assets.xcassets */,
 				A20D96CF1C5B3E67006C59BB /* LaunchScreen.storyboard */,
@@ -114,6 +121,102 @@
 				A20D96DD1C5B3E68006C59BB /* Info.plist */,
 			);
 			path = PlayTennisTests;
+			sourceTree = "<group>";
+		};
+		A20D96E61C5B3F78006C59BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ../../../../../../../../users/KrishanS/Documents/Projects/iOS/PlayTennis/PlayTennis/PlayTennis/Models;
+			sourceTree = "<group>";
+		};
+		A20D96E71C5B3F78006C59BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = ../../../../../../../../users/KrishanS/Documents/Projects/iOS/PlayTennis/PlayTennis/PlayTennis/Resources;
+			sourceTree = "<group>";
+		};
+		A20D96E81C5B3F78006C59BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96F41C5B4089006C59BB /* SplashViewController */,
+				A20D96E91C5B3F78006C59BB /* FirstViewController */,
+				A20D96EC1C5B3F78006C59BB /* SecondViewController */,
+			);
+			name = ViewControllers;
+			path = ../../../../../../../../users/KrishanS/Documents/Projects/iOS/PlayTennis/PlayTennis/PlayTennis/ViewControllers;
+			sourceTree = "<group>";
+		};
+		A20D96E91C5B3F78006C59BB /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96EA1C5B3F78006C59BB /* FirstViewController.h */,
+				A20D96EB1C5B3F78006C59BB /* FirstViewController.m */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		A20D96EC1C5B3F78006C59BB /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96ED1C5B3F78006C59BB /* SecondViewController.h */,
+				A20D96EE1C5B3F78006C59BB /* SecondViewController.m */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		A20D96EF1C5B3F78006C59BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96F01C5B3F78006C59BB /* iPad */,
+				A20D96F11C5B3F78006C59BB /* iPhone */,
+			);
+			name = Views;
+			path = ../../../../../../../../users/KrishanS/Documents/Projects/iOS/PlayTennis/PlayTennis/PlayTennis/Views;
+			sourceTree = "<group>";
+		};
+		A20D96F01C5B3F78006C59BB /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96F51C5B409F006C59BB /* SplashView */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A20D96F11C5B3F78006C59BB /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96F61C5B40A6006C59BB /* SplashView */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A20D96F41C5B4089006C59BB /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96F71C5B424C006C59BB /* PTSplashViewController.h */,
+				A20D96F81C5B424C006C59BB /* PTSplashViewController.m */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		A20D96F51C5B409F006C59BB /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		A20D96F61C5B40A6006C59BB /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20D96FD1C5B42EC006C59BB /* PTSplashView_iPhone.xib in Resources */,
+				A20D96FF1C5B445E006C59BB /* PTSplashView_iPad.xib in Resources */,
 				A20D96D11C5B3E67006C59BB /* LaunchScreen.storyboard in Resources */,
 				A20D96CE1C5B3E67006C59BB /* Assets.xcassets in Resources */,
 				A20D96CC1C5B3E67006C59BB /* Main.storyboard in Resources */,
@@ -216,9 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20D96C91C5B3E67006C59BB /* SecondViewController.m in Sources */,
+				A20D96F31C5B3F78006C59BB /* SecondViewController.m in Sources */,
 				A20D96C31C5B3E67006C59BB /* AppDelegate.m in Sources */,
-				A20D96C61C5B3E67006C59BB /* FirstViewController.m in Sources */,
+				A20D96F91C5B424C006C59BB /* PTSplashViewController.m in Sources */,
+				A20D96F21C5B3F78006C59BB /* FirstViewController.m in Sources */,
 				A20D96C01C5B3E67006C59BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +514,7 @@
 				A20D96E21C5B3E68006C59BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20D96E31C5B3E68006C59BB /* Build configuration list for PBXNativeTarget "PlayTennisTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +523,7 @@
 				A20D96E51C5B3E68006C59BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
