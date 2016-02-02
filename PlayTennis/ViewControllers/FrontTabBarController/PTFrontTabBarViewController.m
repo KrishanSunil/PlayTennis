@@ -1,31 +1,22 @@
 //
-//  PTSplashViewController.m
+//  PTFrontTabBarViewController.m
 //  PlayTennis
 //
-//  Created by Krishantha Sunil on 29/1/16.
+//  Created by Krishantha Sunil on 2/2/16.
 //  Copyright © 2016 Krishan. All rights reserved.
 //
 
-#import "PTSplashViewController.h"
 #import "PTFrontTabBarViewController.h"
-#import "PTUtility.h"
 
+@interface PTFrontTabBarViewController ()
 
-@interface PTSplashViewController ()
 @end
 
-@implementation PTSplashViewController
+@implementation PTFrontTabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // TODO - Download the Data from api
-    
-    // Setup the Tab Bar Controller
-    PTUtility *utility = [PTUtility sharedManager];
-    NSString *nibName = [utility getNibName:@"PTFrontTabBarView"];
-    PTFrontTabBarViewController *tabBarVC = [[PTFrontTabBarViewController alloc]init];
-    
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

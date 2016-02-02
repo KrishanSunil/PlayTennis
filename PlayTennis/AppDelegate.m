@@ -20,8 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Set the splash screen
-    
-    
+    PTUtility *utility = [PTUtility sharedManager];
+    NSString *nibName = [utility getNibName:@"PTSplashView"];
+    PTSplashViewController *splashVC = [[PTSplashViewController alloc]initWithNibName:nibName bundle:nil];
+    self.window.rootViewController = splashVC;
     return YES;
 }
 

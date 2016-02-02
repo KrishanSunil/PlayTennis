@@ -33,7 +33,7 @@
 
 // Get the Xib File name based on the Device Type
 -(NSString*)getNibName:name {
-    
+    DebugLog(@"Nibname : %@",name);
     if (IDIOM==IPAD) {
         return [NSString stringWithFormat:@"%@_iPad",name];
     }

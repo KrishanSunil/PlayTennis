@@ -11,6 +11,8 @@
 
 @interface PTUtility : NSObject
 
-+(PTUtility*)sharedManager;
 
+// Methods
++(PTUtility*)sharedManager;
+-(NSString*)getNibName:name;
 @end

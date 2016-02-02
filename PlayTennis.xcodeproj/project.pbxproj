@@ -19,6 +19,8 @@
 		A20D96FD1C5B42EC006C59BB /* PTSplashView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FC1C5B42EC006C59BB /* PTSplashView_iPhone.xib */; };
 		A20D96FF1C5B445E006C59BB /* PTSplashView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20D96FE1C5B445E006C59BB /* PTSplashView_iPad.xib */; };
 		A286B3281C5B4904003AD15F /* PTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A286B3271C5B4904003AD15F /* PTUtility.m */; };
+		A2CF4BC31C607CCF00E629B5 /* PTFrontTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF4BC21C607CCF00E629B5 /* PTFrontTabBarViewController.m */; };
+		A2CF4BC51C607CEE00E629B5 /* PTFrontTabBarView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CF4BC41C607CEE00E629B5 /* PTFrontTabBarView_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		A286B3261C5B4904003AD15F /* PTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTUtility.h; path = PlayTennis/Models/CommonUtility/PTUtility.h; sourceTree = SOURCE_ROOT; };
 		A286B3271C5B4904003AD15F /* PTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUtility.m; path = PlayTennis/Models/CommonUtility/PTUtility.m; sourceTree = SOURCE_ROOT; };
 		A286B3291C5B5769003AD15F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A2CF4BC11C607CCF00E629B5 /* PTFrontTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTFrontTabBarViewController.h; path = PlayTennis/ViewControllers/FrontTabBarController/PTFrontTabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		A2CF4BC21C607CCF00E629B5 /* PTFrontTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTFrontTabBarViewController.m; path = PlayTennis/ViewControllers/FrontTabBarController/PTFrontTabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		A2CF4BC41C607CEE00E629B5 /* PTFrontTabBarView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PTFrontTabBarView_iPhone.xib; path = PlayTennis/Views/iPhone/TabBarView/PTFrontTabBarView_iPhone.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +153,7 @@
 		A20D96E81C5B3F78006C59BB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2CF4BBE1C607B8600E629B5 /* FrontTabBarController */,
 				A20D96F41C5B4089006C59BB /* SplashViewController */,
 				A20D96E91C5B3F78006C59BB /* FirstViewController */,
 				A20D96EC1C5B3F78006C59BB /* SecondViewController */,
@@ -187,6 +193,7 @@
 		A20D96F01C5B3F78006C59BB /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				A2CF4BC01C607BAE00E629B5 /* TabBarView */,
 				A20D96F51C5B409F006C59BB /* SplashView */,
 			);
 			path = iPad;
@@ -195,6 +202,7 @@
 		A20D96F11C5B3F78006C59BB /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				A2CF4BBF1C607BA600E629B5 /* TabBarView */,
 				A20D96F61C5B40A6006C59BB /* SplashView */,
 			);
 			path = iPhone;
@@ -232,6 +240,30 @@
 				A286B3271C5B4904003AD15F /* PTUtility.m */,
 			);
 			path = CommonUtility;
+			sourceTree = "<group>";
+		};
+		A2CF4BBE1C607B8600E629B5 /* FrontTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF4BC11C607CCF00E629B5 /* PTFrontTabBarViewController.h */,
+				A2CF4BC21C607CCF00E629B5 /* PTFrontTabBarViewController.m */,
+			);
+			path = FrontTabBarController;
+			sourceTree = "<group>";
+		};
+		A2CF4BBF1C607BA600E629B5 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF4BC41C607CEE00E629B5 /* PTFrontTabBarView_iPhone.xib */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		A2CF4BC01C607BAE00E629B5 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +351,7 @@
 				A20D96D11C5B3E67006C59BB /* LaunchScreen.storyboard in Resources */,
 				A20D96CE1C5B3E67006C59BB /* Assets.xcassets in Resources */,
 				A20D96CC1C5B3E67006C59BB /* Main.storyboard in Resources */,
+				A2CF4BC51C607CEE00E629B5 /* PTFrontTabBarView_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +373,7 @@
 				A20D96C31C5B3E67006C59BB /* AppDelegate.m in Sources */,
 				A20D96F91C5B424C006C59BB /* PTSplashViewController.m in Sources */,
 				A20D96F21C5B3F78006C59BB /* FirstViewController.m in Sources */,
+				A2CF4BC31C607CCF00E629B5 /* PTFrontTabBarViewController.m in Sources */,
 				A286B3281C5B4904003AD15F /* PTUtility.m in Sources */,
 				A20D96C01C5B3E67006C59BB /* main.m in Sources */,
 			);
